@@ -19,9 +19,7 @@ const SideBar = ({ activeBar,setActiveBar,activeModal, setActiveModal }) => {
       )}
 
       {activeBar && (
-        <div
-          className={`hidden md:block bg-[#6A67674D] h-screen absolute md:w-64 z-20 top-15 left-0 `}
-        >
+        <div className="hidden md:block bg-[#6A67674D] h-screen mt-16 fixed md:w-64 z-20 top-0 left-0"> 
           <div className="w-full p-4 space-y-6 text-2xl font-light mt-6">
             <div className="flex items-center justify-center">
               <p
